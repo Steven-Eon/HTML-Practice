@@ -1,9 +1,0 @@
-Remember to be patient.
-Remember to never give up.
-Put in the work.
-
-HTML (Hypertext Markup Language)
-NOTE: NOT A PROGRAMING LANGUAGE (Does not provide the logic to webpages.)
-Used to provide structure to webpages.
-
-CSS (Cascading Style Sheet)

@@ -1,0 +1,11 @@
+.table1 {
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+.table1 *{
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
