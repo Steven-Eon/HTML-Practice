@@ -31,23 +31,35 @@
 
     <table class="table1">
         <caption>Test2</caption>
+        <thead>Header</thead>
+        <tbody>Body</tbody>
+        
         <colgroup>
+            <col class="redHighlight"/>
             <col />
-            <col />
+            <col class="yellowHighlight"/>
         </colgroup>
-        <tr>
-            <td rowspan="3">1</td>
+            <thead>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td rowspan="2" colspan="2">1, 2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>3</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td>1</td>
             <td>2</td>
             <td>3</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>3</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>3</td>
-        </tr>
+        </tfoot>
     </table>
 </body>
 </html>
